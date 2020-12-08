@@ -1,0 +1,107 @@
+.header
+    color: #ffffff
+    position: relative
+    height: 718px
+    background: url(../img/bg.jpg) no-repeat center top / cover
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(0, 0, 0, .75)
+        z-index: 2
+
+    &__burger
+        display: none
+    &__menu
+    &__social
+
+    &__block
+        position: relative
+        top: 135px
+
+    &__title
+        font-size: 30px
+        line-height: 35px
+        margin-bottom: 15px
+    &__subtitle
+        font-size: 50px
+        line-height: 59px
+        margin-bottom: 25px
+    &__description
+        font-size: 24px
+        line-height: 28px
+        max-width: 505px
+        margin-bottom: 30px
+    &__avatar
+        position: absolute
+        right: 5%
+        top: 232px
+        border-radius: 50%
+        transition: all .3s
+        &:hover
+            transform: scale(1.1)
+
+.logo-icon
+    width: 145.81px
+    height: 66px
+    
+
+
+.nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 31px
+    height: 66px
+    &__logo
+        width: 145.81px
+        height: 66px
+    &__list
+        display: flex
+        list-style: none
+        & li
+            margin-right: 19px
+            transition: all .3s
+            &:last-child
+                margin: 0
+            &:hover
+                transform: scale(1.1)
+                
+
+
+    &__link
+        position: relative
+        text-decoration: none
+        color: #fff
+        font-size: 25px
+        transition: all .3s
+        &:hover
+            color: #999999
+           
+            
+
+
+
+
+.social-icon
+    height: 30px
+    width: 30px
+    margin-right: 22px
+    &:last-child
+        margin: 0
+
+
+
+.hrader
+    &__btn
+        transition: all .3s
+        &:hover
+            transform: translateY(2px)
+            background: #0a57ae
+            box-shadow: 0px 2px 8px rgba(22, 127, 250, 0.5)
+            
+
+
