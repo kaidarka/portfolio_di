@@ -444,5 +444,8 @@ h2 {
   .advantages__title {
     text-align: center;
   }
+  .advantages-block__description {
+    line-height: 24px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
